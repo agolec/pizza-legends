@@ -17,3 +17,43 @@ class OverworldMap {
     ctx.drawImage(this.upperImage, 0, 0);
   }
 }
+
+//Config objects
+
+window.OverworldMaps = {
+  DemoRoom: {
+    lowerSrc: '/images/maps/DemoLower.png',
+    upperSrc: '/images/maps/DemoUpper.png',
+    gameObjects: {
+      hero: new GameObject({
+        x: 5,
+        y: 6,
+      }),
+      npc1: new GameObject({
+        x: 7,
+        x: 9,
+        src: '/images/characters/people/npc1.png',
+      }),
+    },
+  },
+  Kitchen: {
+    lowerSrc: '/images/maps/KitchenLower.png',
+    upperSrc: '/images/maps/KitchenUpper.png',
+    gameObjects: {
+      hero: new GameObject({
+        x: 3,
+        y: 1,
+      }),
+      npcA: new GameObject({
+        x: 9,
+        y: 2,
+        src: '/images/characters/people/npc2.png',
+      }),
+      npc1: new GameObject({
+        x: 10,
+        x: 2,
+        src: '/images/characters/people/npc3.png',
+      }),
+    },
+  },
+};
