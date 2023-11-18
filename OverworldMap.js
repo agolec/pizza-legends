@@ -31,7 +31,7 @@ window.OverworldMaps = {
       }),
       npc1: new GameObject({
         x: 7,
-        x: 9,
+        y: 9,
         src: '/images/characters/people/npc1.png',
       }),
     },
@@ -42,16 +42,16 @@ window.OverworldMaps = {
     gameObjects: {
       hero: new GameObject({
         x: 3,
-        y: 1,
+        y: 5,
       }),
       npcA: new GameObject({
         x: 9,
-        y: 2,
+        y: 6,
         src: '/images/characters/people/npc2.png',
       }),
       npc1: new GameObject({
         x: 10,
-        x: 2,
+        y: 8,
         src: '/images/characters/people/npc3.png',
       }),
     },
